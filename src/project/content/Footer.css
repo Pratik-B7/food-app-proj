@@ -1,0 +1,30 @@
+
+
+
+
+.box-1{
+    background-color: #000;
+    color: #fff;
+}
+.box-2{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer{
+    background-color:#000;
+    color: #fff;
+    padding: 2rem 0; 
+}
+.ft-1 h3{
+    font-weight: 500;
+    font-family: cursive;
+    padding: 0.5rem 0;
+}
+.ft-1 span{
+    color: gold;
+}
+.footer-icons i{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}

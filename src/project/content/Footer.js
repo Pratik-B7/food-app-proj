@@ -1,0 +1,102 @@
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import './Footer.css'
+
+
+function Footer() {
+    return (
+
+
+        <div className="container">
+            <h4 className="text text-center p-2 m-2">Best Seller</h4>
+            <div className="box-1 d-flex  ">
+
+                <div className="card-1 border rounded shadow p-3 m-3 " style={{ width: '18rem' }}>
+                    <img src="https://images.app.goo.gl/JVjhZ4sX2Rb5SNC56" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Biryani</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="/" className="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                <div className="card-2 border rounded shadow p-3 m-3" style={{ width: '18rem' }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Burger</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="/" className="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                <div className="card-3 border rounded shadow p-3 m-3" style={{ width: '18rem' }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Pizza</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="/" className="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+                <div className="card-4 border rounded shadow p-3 m-3" style={{ width: '18rem' }}>
+                    <img src="..." className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Chicken</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="/" className="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div className="box-2 p-2 m-2 ">
+                <div className="contact p-4 ">
+                    <ul> Contact Us
+                        <li>Chandnani Tower, Vajirabad Market,SP Office Road, Nanded.</li>
+                        <li>9855114466</li>
+                        <li>KingFood@gmil.com</li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <div className="footer">
+               <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 col-lg-5 col-12 ft-1">
+                            <h3> <span> King </span> Food</h3>
+                            <p>Rahul Colony, Taroda BK ,Nanded </p>
+                            
+                        </div>
+                        <div className="col-md-6 col-lg-3 col-12 ft-2">
+                            <h5>Menu Name</h5>
+                            <ul>
+                                <li className="menu-item"> 
+                                    <a className="item-link" href="/">Biryani</a>
+                                </li>
+                                <li className="menu-item"> 
+                                    <a className="item-link" href="/">Burger</a>
+                                </li>
+                                <li className="menu-item"> 
+                                    <a className="item-link" href="/">Pizza</a>
+                                </li>
+                                <li className="menu-item"> 
+                                    <a className="item-link" href="/">KFC Chicken</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-md-6 col-lg-4 col-12 ft-3">
+                            <h5>Social Link</h5>
+                            <div className="footer-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <p><i class="fa-sharp fa-solid fa-phone-volume"></i> +919866475684</p>
+                            <p><i class="fa-solid fa-envelope"></i> KingFood@gmail.com</p>
+                        </div>
+                    </div>
+               </div>
+
+            </div>
+
+        </div>
+        
+    );
+}
+export default Footer;
