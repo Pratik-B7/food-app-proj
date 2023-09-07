@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css'
-import Footer from './project/Footer';
+import FoodRouter from './project/FoodRouter';
 
 
 
@@ -10,7 +10,8 @@ function App() {
     <div>
    {/* Rendering Home and other components*/}
 
-      <Footer/>
+    <FoodRouter/>
+    
 
     </div>
 
